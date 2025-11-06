@@ -42,12 +42,18 @@ Banco de dados: Supabase
 
 # INSTALE OS REQUISITOS DO PROJETO
 Instruções para instalação em um computador com Windows 11
+
+
 Caso não tenha o chocolatey instalado, inicie o preparo do sistema abrindo um terminar do powershell com privilégio de administrador.
 
 
 
 PS> Set-ExecutionPolicy AllSigned
+
+
 PS> Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+
 PS> choco --version  
 
 
@@ -56,10 +62,12 @@ PS> choco --version
 Com o chocolatey instalado, continuamos com a instalação dos requisitos do projeto.
 
 
-
-
 PS> choco install nodejs-lts -y
+
+
 PS> choco install openjdk17 -y
+
+
 PS> choco install nvm -y
 
 
