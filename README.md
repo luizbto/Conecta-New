@@ -50,7 +50,7 @@ PS> choco --version
 
 Com o chocolatey instalado, continuamos com a instalação dos requisitos do projeto.
 
-```bash
+
 PS> choco install nodejs-lts -y
 PS> choco install openjdk17 -y
 PS> choco install nvm -y
