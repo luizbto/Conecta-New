@@ -5,6 +5,8 @@ Orientador : Prof. Luiz Gustavo Turatti
  
 # EQUIPE:
 202302381286 - Gabriel Nakamura Ramos
+
+
 202302423108 - Luiz Alberto da Silva Junior
 
 # SUMÁRIO:
@@ -68,5 +70,7 @@ PS> choco install nvm -y
 
 ```bash
 npx expo start
+
+
 
 
