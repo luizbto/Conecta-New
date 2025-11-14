@@ -41,9 +41,17 @@ A solução compartilhada neste repositório no desenvolvimento de uma plataform
 # TABELA USUÁRIOS
 
 | id          | uuid (Primary Key) | Gerado automaticamente |
+
+
 | title       | text               | Nome do projeto        |
+
+
 | description | text               | Descrição              |
+
+
 | professor   | text               | Responsável            |
+
+
 | created_at  | timestamp          | Data de criação        |
 
 
