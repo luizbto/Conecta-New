@@ -180,5 +180,5 @@ PS> choco install nvm -y
 
 # EXECUTE O PROJETO: 
 
-"dash
+
 npx expo start
