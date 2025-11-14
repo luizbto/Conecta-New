@@ -60,7 +60,11 @@ A solução compartilhada neste repositório no desenvolvimento de uma plataform
 import { createClient } from '@supabase/supabase-js'
 
 const SUPABASE_URL = 'https://lrwzxowwdxipjrzapbjc.supabase.co'
+
+
 const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxyd3p4b3d3ZHhpcGpyemFwYmpjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjE0NTMxODUsImV4cCI6MjA3NzAyOTE4NX0.50TFQRMFzmxXQSDeUCuJiesSgWJRypAmusp22ctUXhI'
+
+
 
 export const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
 
@@ -69,30 +73,80 @@ export const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
 
 CONECTA - NEW/
 ├── apresentacao
-│   ├── apresentacao.pdf
+
+
+│ ├── apresentacao.pdf
+
+
 │   └── apresentacao.pptx
+
+
 ├── backend
+
+
 │   ├── src
+
+
 │   ├── .gitignore
+
+
 │   ├── readme.md
+
+
 │   └── ...demais arquivos
+
+
 ├── documentacao
+
+
 │   ├── 01_cartaDeApresentacao.pdf
+
+
 │   ├── 02_cartaDeAutorizacao.pdf
+
+
 │   ├── 03_declaracaoDeUsoDeDadosPublicos.pdf
+
+
 │   ├── 04_roteiroDeExtensao.pdf
+
+
 │   └── documentacao.md
+
+
 ├── frontend
+
+
 │   ├── assets
+
+
 │   ├── src
+
+
 │   ├── .gitignore
+
+
 │   ├── package.json
+
+
 │   ├── readme.md
+
+
 │   └── ...demais arquivos
+
+
 ├── video
+
+
 │   ├── apresentacao.gif
+
+
 │   ├── apresentacao.mkv
+
+
 │   ├── apresentacao.mp4
+
+
 │   └── video.txt
 
 
