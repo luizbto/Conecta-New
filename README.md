@@ -1,84 +1,50 @@
-# Conecta-New
-Projeto da disciplina de programação de dispositivos móveis com ReactNative + Expo
-Orientador : Prof. Luiz Gustavo Turatti
- A solução compartilhada nesse repositório consiste no desenvolvimento de uma plataforma para Kumon que integra alunos, responsáveis e equipe da unidade Kumon. O público participante é composto principalmente por famílias com filhos em idade escolar, de diferentes realidades socioeconômicas, com faixa etária média entre 3 a 18 anos. O grupo também envolve a equipe da unidade (orientador e auxiliares) e, de forma indireta, a comunidade escolar da região. O principal parceiro é o próprio Kumon Barão Geraldo Santa Isabel, por meio da orientação pedagógica e dos materiais de estudo, além do apoio das famílias na realização das atividades.
- 
-# EQUIPE:
-202302381286 - Gabriel Nakamura Ramos
+# Welcome to your Expo app 👋
 
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-202302423108 - Luiz Alberto da Silva Junior
+## Get started
 
-# SUMÁRIO:
-1. Requisitos
-2. Configuração do acesso de dados
-3. Estrutura do Projeto
-4. Instale os requisitos do projeto
-5. Executando o porjeto
-6. Telas do projeto
+1. Install dependencies
 
- # REQUISITOS:
-NodeJS LTS versão X.Y.Z
+   ```bash
+   npm install
+   ```
 
-React Native versão X.Y.Z
+2. Start the app
 
-ExpoGo Android: https://play.google.com/store/apps/details?id=host.exp.exponent) / Ios: https://apps.apple.com/br/app/expo-go/id982107779
-Banco de dados: Supabase
+   ```bash
+   npx expo start
+   ```
 
-# TABELA USUÁRIOS 
+In the output, you'll find options to open the app in a
 
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
+## Get a fresh project
 
-
-# CONFIGURAÇÃO DO ACESSO DO BANCO DE DADOS
-
-
-
-# ESTRUTURA DO PROJETO
-
-
-
-
-# INSTALE OS REQUISITOS DO PROJETO
-Instruções para instalação em um computador com Windows 11
-
-
-Caso não tenha o chocolatey instalado, inicie o preparo do sistema abrindo um terminar do powershell com privilégio de administrador.
-
-
-
-PS> Set-ExecutionPolicy AllSigned
-
-
-PS> Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-
-
-PS> choco --version  
-
-
-
-
-Com o chocolatey instalado, continuamos com a instalação dos requisitos do projeto.
-
-
-PS> choco install nodejs-lts -y
-
-
-PS> choco install openjdk17 -y
-
-
-PS> choco install nvm -y
-
-
-
-
-
-# EXECUTE O PROJETO
+When you're ready, run:
 
 ```bash
-npx expo start
+npm run reset-project
+```
 
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
+## Learn more
 
+To learn more about developing your project with Expo, look at the following resources:
 
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.

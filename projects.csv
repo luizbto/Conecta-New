@@ -1,0 +1,5 @@
+| id          | uuid (Primary Key) | Gerado automaticamente |
+| title       | text               | Nome do projeto        |
+| description | text               | Descrição              |
+| professor   | text               | Responsável            |
+| created_at  | timestamp          | Data de criação        |
